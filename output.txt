@@ -1,0 +1,194 @@
+GUPTA CORPORATION M/s PRADHANMANTARI MEDI.
+1/11, SHREEJI VELLY, TEJAGI NAGER
+BICHOLI MARDANA INDORE (M.P.)-452016
+Phone : 9826266198 Ph.No.: 7738813456
+GST:
+E-Mail : brijendragupta@gmail.com Invoice No. : A000070 Date : 15-01-2025
+GSTIN : FAROSPCAOMIZR GST INVOICE Sales Man g Due Date : 15-01-2025
+Sn.| Qty. MRP | Product | RATE Exp. | HSN PACK | Batch | Dis | SGST| CGST| Amount
+1. 10 <i 12.00 | GILLETTE GURD 10.00 | 3004] | «| 0.00 0.00] 0.00] 100.00
+42 6 © | 100.00, GILLETTE PRESTO 1*4 70.00 | 300490 0.00 0.00| 0.00| 420.00
+3. | Spe: 63.00 FAIR&LOVELY 62.00 | 6/27 [33049120]  25GM *T3| 0.00] 0.00 0.00 186.00
+a. 5-—| 6500] HIM SOAP 75GM 49.00 30049011| | | 0.00| 0.00 0.00| 245.00
+IB 1 ~ 90.00 | DISPRIN TAB 80.00 3004 10 0.00| 0.00| 0.00 80.00
+ls 6 — 7500 | JOILS0ML 64.00 33049990|  SOML! | 0.00 0.00 0.00/ 384.00
+i | | | i a=
+iy Res BE 8 Po eG
+| hs \
+| | (
+iy | n Fe
+| lS QT | | |
+be | W NE eA
+| | | | | | | | 5 7 !
+
+Parsing text into structured JSON...
+Processing line: 1. 10 <i 12.00 | GILLETTE GURD 10.00 | 3004] | «| 0.00 0.00] 0.00] 100.00
+this is cleanline  1. 10 12.00 GILLETTE GURD 10.00 3004 0.00 0.00 0.00 100.00
+Parts: [
+  '1.',     '10',
+  '12.00',  'GILLETTE',
+  'GURD',   '10.00',
+  '3004',   '0.00',
+  '0.00',   '0.00',
+  '100.00'
+]
+Processing line: 42 6 © | 100.00, GILLETTE PRESTO 1*4 70.00 | 300490 0.00 0.00| 0.00| 420.00
+this is cleanline  42 6 100.00 GILLETTE PRESTO 1 4 70.00 300490 0.00 0.00 0.00 420.00
+Parts: [
+  '42',     '6',
+  '100.00', 'GILLETTE',
+  'PRESTO', '1',
+  '4',      '70.00',
+  '300490', '0.00',
+  '0.00',   '0.00',
+  '420.00'
+]
+Processing line: 3. | Spe: 63.00 FAIR&LOVELY 62.00 | 6/27 [33049120]  25GM *T3| 0.00] 0.00 0.00 186.00
+this is cleanline  3. Spe 63.00 FAIR LOVELY 62.00 6 27 33049120 25GM T3 0.00 0.00 0.00 186.00
+Parts: [
+  '3.',       'Spe',
+  '63.00',    'FAIR',
+  'LOVELY',   '62.00',
+  '6',        '27',
+  '33049120', '25GM',
+  'T3',       '0.00',
+  '0.00',     '0.00',
+  '186.00'
+]
+Processing line: a. 5-—| 6500] HIM SOAP 75GM 49.00 30049011| | | 0.00| 0.00 0.00| 245.00
+this is cleanline  . 5 6500 HIM SOAP 75GM 49.00 30049011 0.00 0.00 0.00 245.00
+Parts: [
+  '.',     '5',
+  '6500',  'HIM',
+  'SOAP',  '75GM',
+  '49.00', '30049011',
+  '0.00',  '0.00',
+  '0.00',  '245.00'
+]
+Processing line: IB 1 ~ 90.00 | DISPRIN TAB 80.00 3004 10 0.00| 0.00| 0.00 80.00
+this is cleanline  IB 1 90.00 DISPRIN TAB 80.00 3004 10 0.00 0.00 0.00 80.00
+Parts: [
+  'IB',    '1',
+  '90.00', 'DISPRIN',
+  'TAB',   '80.00',
+  '3004',  '10',
+  '0.00',  '0.00',
+  '0.00',  '80.00'
+]
+Processing line: ls 6 — 7500 | JOILS0ML 64.00 33049990|  SOML! | 0.00 0.00 0.00/ 384.00
+this is cleanline  ls 6 7500 JOILS0ML 64.00 33049990 SOML 0.00 0.00 0.00 384.00
+Parts: [
+  'ls',     '6',
+  '7500',   'JOILS0ML',
+  '64.00',  '33049990',
+  'SOML',   '0.00',
+  '0.00',   '0.00',
+  '384.00'
+]
+Processing line: i | | | i a=
+Processing line: iy Res BE 8 Po eG
+Processing line: | hs \
+Processing line: | | (
+Processing line: iy | n Fe
+Processing line: | lS QT | | |
+Processing line: be | W NE eA
+Processing line: | | | | | | | | 5 7 !
+Structured JSON: {
+  "organization": {
+    "name": "GUPTA CORPORATION",
+    "address": "1/11, SHREEJI VELLY, TEJAGI NAGER, BICHOLI MARDANA INDORE (M.P.)-452016",
+    "phone": "9826266198"
+  },
+  "customer": {
+    "name": "PRADHANMANTARI MEDI.",
+    "address": "TEJAGI NAGER",
+    "phone": "7738813456"
+  },
+  "products": [
+    {
+      "serialNumber": 1,
+      "quantity": 10,
+      "mrp": 12,
+      "productName": "GILLETTE GURD",
+      "rate": 10,
+      "hsn": "3004",
+      "pack": null,
+      "batch": null,
+      "discount": 0,
+      "sgst": 0,
+      "cgst": 0,
+      "amount": 100
+    },
+    {
+      "serialNumber": 2,
+      "quantity": 6,
+      "mrp": 100,
+      "productName": "GILLETTE PRESTO",
+      "rate": 70,
+      "hsn": "300490",
+      "pack": null,
+      "batch": null,
+      "discount": 0,
+      "sgst": 0,
+      "cgst": 0,
+      "amount": 420
+    },
+    {
+      "serialNumber": 3,
+      "quantity": null,
+      "mrp": 63,
+      "productName": "FAIR LOVELY",
+      "rate": 62,
+      "hsn": "33049120",
+      "pack": "25GM",
+      "batch": "T3",
+      "discount": 0,
+      "sgst": 0,
+      "cgst": 0,
+      "amount": 186
+    },
+    {
+      "serialNumber": 4,
+      "quantity": 5,
+      "mrp": 6500,
+      "productName": "HIM SOAP",
+      "rate": 49,
+      "hsn": "30049011",
+      "pack": null,
+      "batch": null,
+      "discount": 0,
+      "sgst": 0,
+      "cgst": 0,
+      "amount": 245
+    },
+    {
+      "serialNumber": 5,
+      "quantity": 1,
+      "mrp": 90,
+      "productName": "DISPRIN TAB",
+      "rate": 80,
+      "hsn": "3004",
+      "pack": null,
+      "batch": null,
+      "discount": 0,
+      "sgst": 0,
+      "cgst": 0,
+      "amount": 80
+    },
+    {
+      "serialNumber": 6,
+      "quantity": 6,
+      "mrp": 7500,
+      "productName": "JOILS0ML",
+      "rate": 64,
+      "hsn": "33049990",
+      "pack": null,
+      "batch": null,
+      "discount": 0,
+      "sgst": 0,
+      "cgst": 0,
+      "amount": 384
+    }
+  ],
+  "grandTotal": 1415
+}
